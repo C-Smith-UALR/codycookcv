@@ -61,9 +61,9 @@ body {
     padding-top: 80px;
 }
 
-#homeName, #socialContainer {
+#socialContainer {
 
-    border-bottom: 2px solid #fdfdfd;
+    border-bottom: 2px solid #434343;
 
 }
 
@@ -104,7 +104,7 @@ body {
 
 dt{
     padding: 10px 0;
-    border-bottom:1px solid #fdfdfd;
+    border-bottom:1px solid #434343;
 }
 
 dd{
