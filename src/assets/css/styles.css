@@ -1,0 +1,202 @@
+h1 {
+    /*color: #fdfdfd;*/
+    color: #434343;
+    font-family: 'Source Serif Pro', Georgia, serif;
+    font-size: 250%;
+    text-align: center;
+}
+h2, h3 {
+    font-family: 'Source Serif Pro', Georgia, serif;
+    font-weight: lighter;
+    color: #434343;
+    text-align: center;
+}
+
+.card p {
+    color: #434343;
+    font-family: 'Nunito', "Lucida Console", sans-serif;
+    font-size: 1.5em;
+}
+
+.card {
+    /*padding: 5px;*/
+    margin-top: 40px;
+}
+/*body {*/
+/*    color: #333;*/
+/*    font-family: 'Nunito', "Lucida Console", sans-serif;*/
+/*}*/
+
+p, dd, dt, #medzoarFooter h6, .clarkLikeParagraph, th, td {
+    color: #434343;
+    font-family: 'Nunito', "Lucida Console", sans-serif;
+    font-size: 1.5em;
+}
+
+#medzoarFooter h6 {
+    color: #fdfdfd;
+
+}
+
+#medzoarFooter {
+    background-color: #434343;
+}
+
+#headShotDiv {
+    background-color: #434343;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#headShotImg {
+    border-radius: 50%;
+}
+
+/*#home img {*/
+/*    box-shadow: 4px 4px 4px #434343;*/
+/*}*/
+
+body {
+    background-color: #fdfdfd;
+    padding-top: 80px;
+}
+
+#homeName, #socialContainer {
+
+    border-bottom: 2px solid #fdfdfd;
+
+}
+
+.clarkBorderBottom {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #434343;
+    padding-bottom: 40px;
+}
+
+.homeh1wrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #434343;
+    padding-bottom: 10px;
+}
+
+#detailsList {
+    text-align: center;
+}
+
+/* ------ Helper Classes -------*/
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+#home p {
+    text-align: justify;
+}
+
+dt{
+    padding: 10px 0;
+    border-bottom:1px solid #fdfdfd;
+}
+
+dd{
+    margin-bottom: 20px;
+}
+
+.iconContainer {
+    text-align: center;
+
+    border-radius: 50%;
+    transition: .5s;
+    margin: 10px 30px;
+    padding: 20px 20px;
+
+}
+
+#socialContainer {
+    text-align: center;
+    /*background-color: #314551;*/
+    padding-top: 40px;
+
+}
+
+#social {
+    margin-top: 40px;
+    border-top: 3px solid #434343;
+
+}
+
+.icon{
+    font-size: 3.5em;
+    color: #fdfdfd;
+    text-shadow: 1px 1px 1px #434343;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clarkNotHead:nth-of-type(odd) {
+    background: #42b983;
+}
+
+th {
+    background: #434343;
+}
+
+td, th {
+    padding: 6px;
+    text-align: left;
+    border: 1px solid #fdfdfd;
+
+}
+
+/*  ////////////////////////////  queries //////////////////// */
+@media only screen and (max-width: 780px), (min-device-width: 768px) and (max-device-width: 1024px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #fdfdfd;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #fdfdfd;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before { content: "Degree"; }
+    td:nth-of-type(2):before { content: "Subject"; }
+    td:nth-of-type(3):before { content: "University"; }
+    td:nth-of-type(4):before { content: "Start Date"; }
+    td:nth-of-type(5):before { content: "End Date"; }
+
+
+}
