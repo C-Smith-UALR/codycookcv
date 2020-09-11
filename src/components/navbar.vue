@@ -2,7 +2,7 @@
     <section id="navbar">
         <div>
             <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-                <b-navbar-brand to="/">
+                <b-navbar-brand href="#topOfApp">
                     <div class="clarkCenter">
                         <b>CC</b>
                     </div>
@@ -12,7 +12,8 @@
                 <b-collapse id="nav-collapse" is-nav>
                     <b-navbar-nav class="ml-auto">
                         <b-nav-item to="/">home</b-nav-item>
-                        <b-nav-item to="/mediums">mediums</b-nav-item>
+                        <b-nav-item href="#education">education</b-nav-item>
+                        <b-nav-item href="#experience">experience</b-nav-item>
 
                     </b-navbar-nav>
 

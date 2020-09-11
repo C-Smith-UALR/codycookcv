@@ -13,10 +13,9 @@
           </div>
 
           <p itemprop="description" style="text-align: justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Dr. Cody Chase Cook is the Founder, President, and Chief Medical Scientist at MitoGene and
+            HTWO Beverage Company&#8482;.  This is his professional curriculum vitae.  He is not married and has
+            no children, choosing to focus intently on his career.
           </p>
         </div>
         <div class="col-sm-12 col-lg-6 pt-3" id="detailsList">
@@ -63,12 +62,19 @@
         </div>
       </div> <!--row-->
     </div> <!--container-->
-  </div>
+    <icons></icons>
+    <education></education>
+    <experience></experience>
+
+  </div><!--home-->
+
 </template>
 
 <script>
 // @ is an alias to /src
-
+import icons from '../components/icons'
+import education from '../components/education'
+import experience from "../components/experience";
 
 export default {
   name: 'Home',
@@ -77,6 +83,11 @@ export default {
       publicPath: process.env.BASE_URL
     }
   },
+  components: {
+    'Icons':icons,
+    'Education': education,
+    'Experience': experience
+  }
 
 }
 </script>
