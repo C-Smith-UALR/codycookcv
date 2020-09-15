@@ -77,6 +77,10 @@
 
     }
 
+    #experience {
+        padding-top: 60px;
+    }
+
     /*  ////////////////////////////  queries //////////////////// */
     @media only screen and (max-width: 780px), (min-device-width: 768px) and (max-device-width: 1024px) {
         table, thead, tbody, th, td, tr {
