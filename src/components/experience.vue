@@ -15,39 +15,32 @@
                 </thead>
                 <tbody>
                 <tr class="clarkNotHead">
-                    <td>UAMS</td>
-                    <td>Family Medicine Resident</td>
-                    <td>7/1/2009</td>
-                    <td>6/30/2012</td>
-                    <td>Little Rock, AR</td>
+                    <td>MitoGene</td>
+                    <td>Founder and President</td>
+                    <td>2010</td>
+                    <td>present</td>
+                    <td>Memphis, TN</td>
                 </tr>
                 <tr class="clarkNotHead">
-                    <td>UAMS</td>
-                    <td>Palliative Medicine Fellow</td>
-                    <td>7/1/2012</td>
-                    <td>6/30/2013</td>
-                    <td>Little Rock, AR</td>
+                    <td>MitoGene</td>
+                    <td>Chief Medical Scientist</td>
+                    <td>2010</td>
+                    <td>present</td>
+                    <td>Memphis, TN</td>
                 </tr>
                 <tr class="clarkNotHead">
-                    <td>Arkansas Hospice</td>
-                    <td>Medical Director</td>
-                    <td>7/1/2013</td>
-                    <td>4/15/2016</td>
-                    <td>Little Rock, AR</td>
+                    <td>HTWO Beverage Company</td>
+                    <td>Founder and President</td>
+                    <td>2013</td>
+                    <td>present</td>
+                    <td>Memphis, TN</td>
                 </tr>
                 <tr class="clarkNotHead">
-                    <td>UAMS</td>
-                    <td>Assistant Professor</td>
-                    <td>4/16/16</td>
-                    <td>10/31/2017</td>
-                    <td>Little Rock, AR</td>
-                </tr>
-                <tr class="clarkNotHead">
-                    <td>Arkansas Hospice</td>
-                    <td>Medical Director</td>
-                    <td>1/1/2018</td>
-                    <td>7/31/2020</td>
-                    <td>Little Rock, AR</td>
+                    <td>HTWO Beverage Company</td>
+                    <td>Chief Medical Scientist</td>
+                    <td>2013</td>
+                    <td>present</td>
+                    <td>Memphis, TN</td>
                 </tr>
 
                 </tbody>
@@ -116,7 +109,9 @@
             white-space: nowrap;
         }
 
-
+        #experience {
+            padding-top: 60px;
+        }
 
 
         td:nth-of-type(1):before { content: "Organization"; }

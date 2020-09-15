@@ -65,6 +65,7 @@
     <icons></icons>
     <education></education>
     <experience></experience>
+    <publications></publications>
 
   </div><!--home-->
 
@@ -75,6 +76,7 @@
 import icons from '../components/icons'
 import education from '../components/education'
 import experience from "../components/experience";
+import publications from "../components/publications";
 
 export default {
   name: 'Home',
@@ -86,7 +88,8 @@ export default {
   components: {
     'Icons':icons,
     'Education': education,
-    'Experience': experience
+    'Experience': experience,
+    'Publications': publications
   }
 
 }

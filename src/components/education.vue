@@ -1,5 +1,5 @@
 <template>
-    <section id="education">
+    <section id="education" class="mt-5">
         <div class="container clarkBorderBottom">
             <h2>Education</h2>
 
@@ -15,29 +15,33 @@
                 </thead>
                 <tbody>
                 <tr class="clarkNotHead">
-                    <td>BS</td>
-                    <td>Biochemistry</td>
-                    <td>U of A - Fayetteville</td>
+                    <td>BS*</td>
+                    <td>Biology</td>
+                    <td>UCA, Conway, AR</td>
                     <td>7/1/2001</td>
                     <td>6/30/2005</td>
                 </tr>
                 <tr class="clarkNotHead">
                     <td>MD</td>
                     <td>Medicine</td>
-                    <td>UAMS</td>
+                    <td>UAMS, Little Rock, AR</td>
                     <td>7/1/2005</td>
-                    <td>6/30/2009</td>
+                    <td>6/30/2016</td>
                 </tr>
                 <tr class="clarkNotHead">
-                    <td>BS</td>
-                    <td>Computer Science</td>
-                    <td>U of A - Little Rock</td>
-                    <td>1/1/2018</td>
-                    <td>6/30/2020</td>
+                    <td>Ph.D</td>
+                    <td>Biochemistry and Molecular Biology</td>
+                    <td>UAMS</td>
+                    <td>7/1/2005</td>
+                    <td>6/30/2011</td>
                 </tr>
+
 
                 </tbody>
             </table>
+            <small class="text-muted">
+                *Valedictorian, Summa Cum Laude
+            </small>
         </div>
 
     </section>
